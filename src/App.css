@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+    --color-gray-100: #f9f9fd;     
+    --color-gray-300: #7c7d81;
+    --color-purple-500: #6866a9;
+    --color-purple-600: #4b3ade;
+    --color-purple-200: #dadeff;
+    --color-purple-100: #a9a1fe;
+    --color-white: #feffff;
+}
+
+
+/*
+--color-gray-100: #f9f9fd;      // bg
+--color-gray-300: #7c7d81;      // text
+--color-purple-500: #6866a9;    // button-text
+--color-purple-600: #4b3ade;    // bg-primary-button    
+--color-purple-200: #e0e4fe;    // bg-secondary-button
+--color-white: #feffff;         // bg card, bg sidebar
+ */
