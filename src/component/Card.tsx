@@ -1,4 +1,4 @@
-import type { ReactElement } from "react";
+import type { ReactElement, ReactNode } from "react";
 import { DeleteIcon } from "../icons/DeleteIcon";
 import { DocumentIcon } from "../icons/DocumentIcon";
 import { ShareIcon } from "../icons/ShareIcon"
@@ -12,7 +12,8 @@ interface CardProps {
     contentId: string;
     title: string;
     link: string;
-    type: "X" | "Youtube" | "Document"
+    type: "X" | "Youtube" | "Document";
+    children?: ReactNode
 }
 
 const helper: {
