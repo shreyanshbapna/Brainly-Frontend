@@ -27,7 +27,7 @@ const helper: {
 }
 
 export const Card = ({title, link, type, contentId}: CardProps) => {
-    console.log(contentId);
+  
     async function deteteCard() {
         await axios.delete(`${BACKEND_URL}/api/v1/content`, {
             data: {

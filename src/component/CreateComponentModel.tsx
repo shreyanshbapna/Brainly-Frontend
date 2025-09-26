@@ -27,7 +27,6 @@ export function CreateContentModel({open, onClose}: {open: boolean, onClose: () 
             }
         })
         onClose()
-
     } 
     
     return <div>

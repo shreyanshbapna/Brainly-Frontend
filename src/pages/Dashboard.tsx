@@ -8,7 +8,7 @@ import { ShareIcon } from '../icons/ShareIcon'
 import { Sidebar } from '../component/Sidebar'
 import { useContent } from '../hooks/useContent'
 
-export const Deshboard = () => {
+export const Dashboard = () => {
     const [modelOpen, setModelOpen] = useState(false);
     const contents = useContent();
 
